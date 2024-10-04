@@ -142,19 +142,34 @@ section.hero {
     color: white;
 }
 
-.main-header:hover .navbar ul .nav-item a.nav-link {
+.main-header:hover .navbar ul .nav-item a.nav-link  {
     color: black;
 }
+
+
 
 .main-header .top-header a {
     /* background-color: #fff; */
     color: #ffffff;
 }
 
-.main-header:hover .top-header a {
+/* .main-header:hover .top-header a ,.toggle-menu button.btn i{
+    
+    color: black;
+} */
+.main-header .toggle-menu button.btn i{
+    color: white;
+}
+
+.main-header:hover .toggle-menu button.btn i{
+    color: black;
+}
+
+.main-header:hover .top-header a{
     /* background-color: #fff; */
     color: black;
 }
+
 
 
 /* icon design */
@@ -225,8 +240,8 @@ a.user .icon {
 }
 
 .main-header .top-header .icons {
-    justify-content: center;
-
+    /* justify-content: center; */
+    /* visibility: visible; */
 }
 
 
@@ -1182,7 +1197,7 @@ footer .footer-bottom {
 
 
     .sticky-top {
-        width: 483px;
+        width: 382px;
         /* Change to 100% for better responsiveness */
     }
 
@@ -1194,7 +1209,7 @@ footer .footer-bottom {
 
     section.hero {
         height: 100vh;
-        width: 483px;
+        width: 382px;
         /* Set to 100% for better scaling */
         /* position: absolute;
         top: 40px; */
@@ -1237,13 +1252,14 @@ footer .footer-bottom {
     }
 
     section.featured {
-        width: 483px;
+        width: 382px;
 
     }
 
     #bgvideo-p {
         display: block;
-        min-width: 100%;
+        /* min-width: 100%; */
+        width: 382px;
     }
 
     #bgvideo-1 {
@@ -1251,22 +1267,23 @@ footer .footer-bottom {
     }
 
     section.testimonials {
-
-        min-width: 495px;
+          width: 382px;
+        /* min-width: 382px; */
         /* min-width: 100%; */
 
 
     }
 
     .main-logo {
-        width: 495px;
+        width: 382px;
 
 
 
     }
 
     footer {
-        min-width: 495px;
+        /* min-width: 382px; */
+        width: 382px;
     }
 
     #scroll-top {
@@ -1293,4 +1310,26 @@ footer .footer-bottom {
         left: 300px;
         cursor: pointer;
     }
+
+    section.parallox-video video {
+        width: 382px;
+        /* min-width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: -999; */
+    }
+    body{
+        width: 382px;
+        overflow-x: hidden;
+    }
+
+    .main-logo .container {
+       
+    
+        padding: 2px 30px 100px;
+    
+    
+    }
+
+    
 }
