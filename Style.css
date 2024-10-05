@@ -1045,6 +1045,12 @@ footer .footer-bottom {
     color: #fff;
 }
 
+.menu-items li.list-item:hover a {
+    
+    color: #c96;
+}
+
+
 
 
 /* dropdown design */
@@ -1070,6 +1076,10 @@ footer .footer-bottom {
 
 }
 
+#sidebar .dropdown button.btn:hover{
+    color: #c96 !important;
+} 
+
 #sidebar .dropdown-menu {
     background-color: #333;
     box-shadow: none;
@@ -1088,6 +1098,10 @@ footer .footer-bottom {
     font-size: 13px;
     background-color: transparent;
 
+}
+
+#sidebar .dropdown-menu li a:hover{
+    color: #c96;
 }
 
 .dropdown-toggle::after {
@@ -1287,7 +1301,7 @@ footer .footer-bottom {
     }
 
     #scroll-top {
-        display: none;
+        /* display: none; */
     }
 
     #sidebar {
@@ -1330,6 +1344,17 @@ footer .footer-bottom {
     
     
     }
+     
+    .floating-buttons {
+       
+        left: 10px;
+       
+    }
 
+    #scroll-top {
+       
+        right: 40px;
+       
+    }
     
 }
