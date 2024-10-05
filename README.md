@@ -1,5 +1,5 @@
 <div align="center">
-## Business Project Landing Page Design
+##Business Project Landing Page Design
 
 
 **please see the website in live preview deployed in netlify**
